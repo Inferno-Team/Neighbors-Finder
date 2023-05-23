@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.3">
+  <object class="tk.Toplevel" id="main_window" named="True">
+    <property name="height">200</property>
+    <property name="width">300</property>
+    <child>
+      <object class="ttk.Frame" id="main_frame" named="True">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="grid">
+          <property name="column">0</property>
+          <property name="row">0</property>
+          <property name="sticky">nsew</property>
+        </layout>
+        <child>
+          <object class="ttk.Button" id="a4" named="True">
+            <property name="command" type="command" cbtype="simple">select4agecency</property>
+            <property name="text" translatable="yes">4 agecency</property>
+            <layout manager="grid">
+              <property name="column">1</property>
+              <property name="columnspan">2</property>
+              <property name="pady">5</property>
+              <property name="row">1</property>
+              <property name="sticky">ew</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="a8" named="True">
+            <property name="command" type="command" cbtype="simple">select8agecency</property>
+            <property name="text" translatable="yes">8 agecency</property>
+            <layout manager="grid">
+              <property name="column">1</property>
+              <property name="columnspan">2</property>
+              <property name="pady">5</property>
+              <property name="row">2</property>
+              <property name="sticky">ew</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Button" id="am" named="True">
+            <property name="command" type="command" cbtype="simple">select_mixed_agecency</property>
+            <property name="text" translatable="yes">mixed agecency</property>
+            <layout manager="grid">
+              <property name="column">1</property>
+              <property name="columnspan">2</property>
+              <property name="pady">5</property>
+              <property name="row">3</property>
+              <property name="sticky">ew</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Entry" id="vector" named="True">
+            <layout manager="grid">
+              <property name="column">1</property>
+              <property name="columnspan">1</property>
+              <property name="row">0</property>
+              <property name="sticky">ew</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Label" id="vector_label" named="True">
+            <property name="text" translatable="yes">Vector</property>
+            <layout manager="grid">
+              <property name="column">0</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
